@@ -114,12 +114,12 @@ ex: /public_html/pshop
 順利安裝後，會出現如下畫面，就能開始使用囉！
 ![alt text](https://github.com/twweeb/PShop/blob/master/README/img08.png)
 
-* ＊伺服器權限設定＊ *
+**＊伺服器權限設定＊**
 
 由於您可能會需要上傳商品圖片，建議您將 img/product_img/ , img/product_img/thumb/cache/ 兩個資料夾皆設為 777！
 ![alt text](https://github.com/twweeb/PShop/blob/master/README/img09.png)
 
-* ＊安全＊ *
+**＊安全＊**
 
 為維護您網站的安全，建議您在安裝完成後，將 install/ 資料夾移除！
 
@@ -127,69 +127,69 @@ ex: /public_html/pshop
 
 ### 模組架構
 
-** 模組1 使用者 (Class User) **
+**模組1 使用者 (Class User)**
 
-帳號新增
-帳號修改
-帳號刪除
-帳號管理
-密碼變更
-登入／登出
+- 帳號新增
+- 帳號修改
+- 帳號刪除
+- 帳號管理
+- 密碼變更
+- 登入／登出
 
-**  模組2 商品 (Class Commodity) **
+**模組2 商品 (Class Commodity)**
 
-商品新增
-商品修改
-商品下架
-商品庫存
-商品已售
-商品照片
-商品搜尋
+- 商品新增
+- 商品修改
+- 商品下架
+- 商品庫存
+- 商品已售
+- 商品照片
+- 商品搜尋
 
-** 模組3 商品分類 (Class Cat) **
+**模組3 商品分類 (Class Cat)**
 
-分類名
-分類代號
-分類統計
+- 分類名
+- 分類代號
+- 分類統計
 
-** 模組4 購物車 (Class Cart) **
+**模組4 購物車 (Class Cart)**
 
-記錄加入的商品
-移除加入的商品
-累計購買金額
-優惠/折扣
-運費
-總金額
-商品寄送方式
-付款方式
-購買人資料
+- 記錄加入的商品
+- 移除加入的商品
+- 累計購買金額
+- 優惠/折扣
+- 運費
+- 總金額
+- 商品寄送方式
+- 付款方式
+- 購買人資料
 
-** 模組5 訂單 (Class Order) **
+**模組5 訂單 (Class Order)**
 
-確認各項商品庫存
-套用優惠確認
-訂單狀態
-訂單日期
-付款狀態
-取消訂單 => 回復庫存
+- 確認各項商品庫存
+- 套用優惠確認
+- 訂單狀態
+- 訂單日期
+- 付款狀態
+- 取消訂單 => 回復庫存
 
-** 模組6 優惠 (Class Coupon) **
+**模組6 優惠 (Class Coupon)**
 
-優惠新增
-優惠折扣
-優惠期限
-優惠數量
+- 優惠新增
+- 優惠折扣
+- 優惠期限
+- 優惠數量
 
-** 模組7 網站設定 (Class Option) **
+**模組7 網站設定 (Class Option)**
 
-網站名稱
-網站細部設定
+- 網站名稱
+- 網站細部設定
 
-** 模組8 圖表 (Class Chart) **
+**模組8 圖表 (Class Chart)**
 
-後台統計圖表
-轉換 json Data
-輸出圖表
+- 後台統計圖表
+- 轉換 json Data
+- 輸出圖表
 
 #### 資料庫關聯
 ![alt text](https://github.com/twweeb/PShop/blob/master/README/img10.png)
