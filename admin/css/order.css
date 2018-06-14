@@ -1,0 +1,366 @@
+.order-finished tr.view-order-title{
+	background: #0063aa;
+}
+.order-shipping tr.view-order-title{
+	background: #8a0000;
+}
+.view-order-table button,a.order-item__view{
+	background: none;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	text-decoration:none;
+}
+.view-order-table a.order-item__view{
+	color: #000;
+}
+.view-order-table button.order-item__cancel{
+	color: #787878;
+}
+.view-order-table a.order-item__view:hover{
+	color: #FF0000;
+}
+.view-order-table button.order-item__cancel:hover{
+	color: #000;
+}
+.order-detail-header__state-container {
+	background: #FFF;
+	border-radius: 4px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8rem 4.5rem 4.5rem;
+    margin-bottom: 2em;
+}
+.stepper {
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.stepper--1 .stepper__line-background,
+.stepper--1 .stepper__line-foreground {
+  width: 100%;
+  margin: 0;
+}
+.stepper--1 .stepper__step {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.stepper__step {
+  width: 140px;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+  z-index: 1;
+}
+  .stepper__step-icon {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 3rem;
+    border: 4px solid #e0e0e0;
+    color: #e0e0e0;
+    background-color: white;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.7s, border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.7s, color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.7s;
+}
+.stepper__step-icon--pending {
+  background-color: #2dc258;
+  color: white;
+  strike: white;
+  fill: #2dc258;
+  border-color: #2dc258;
+}
+.stepper__step-icon--finish {
+  border-color: #2dc258;
+  color: #2dc258;
+}
+.stepper__step-text {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, .8);
+  line-height: 2rem;
+  margin: 2rem 0 0.4rem;
+}
+.stepper__step-date {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, .26);
+  height: 1.4rem;
+}
+.stepper__step-error-icon {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  position: absolute;
+  background-image: url("../../../../assets/images/exclamation_ point.png");
+  width: 3rem;
+  height: 3rem;
+  right: -1.5rem;
+  top: -1rem;
+}
+.stepper__line {
+  position: absolute;
+  top: 29px;
+  height: 4px;
+  width: 100%; }
+.stepper__line-background, .stepper__line-foreground {
+  position: absolute;
+  width: calc(100% - 140px);
+  margin: 0 70px;
+  height: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.stepper__line-background {
+  background: #e0e0e0;
+}
+.stepper__line-foreground {
+  background: #2dc258;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-order-order, .icon-order-paid, .icon-order-problem, .icon-order-rating, .icon-order-received, .icon-order-shipping {
+    stroke: currentColor;
+}
+.pshop-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+}
+.order-detail-page__container {
+  padding-bottom: 30rem; }
+
+.order-detail-page__purchase-detail-header {
+  margin-bottom: 1rem; }
+
+.order-detail-page__delivery__container-wrapper {
+  margin-bottom: 2em;
+  border-radius: 4px;
+  background: white; }
+
+.order-detail-page__delivery__container {
+  padding: 1.6rem 1.2rem 3.0rem; }
+
+.order-detail-page__delivery__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+     -moz-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .09); }
+  .order-detail-page__delivery__header__title {
+    color: rgba(0, 0, 0, .8);
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-left: 0.8rem;
+    text-transform: capitalize; }
+  .order-detail-page__delivery__header__tracking-info {
+    color: rgba(0, 0, 0, .54);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    max-width: 50%;
+    word-wrap: break-word; }
+
+.order-detail-page__delivery__content {
+  padding: 2.6rem 2rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.order-detail-page__delivery__shipping-address__shipping-name, .order-detail-page__delivery__logistic-info__item__description--highlighted {
+  color: rgba(0, 0, 0, .8); }
+
+.order-detail-page__delivery__logistic-info__item {
+  color: rgba(0, 0, 0, .54);
+  font-size: 1.4rem; }
+
+.order-detail-page__delivery__shipping-address__detail {
+  color: rgba(0, 0, 0, .54);
+  font-size: 1.2rem; }
+
+.order-detail-page__delivery__shipping-address__container {
+  width: 16rem;
+  text-align: start;
+  margin-right: 6%;
+  padding-top: 1rem;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+
+.order-detail-page__delivery__shipping-address__shipping-name {
+  line-height: 2.2rem;
+  margin-bottom: .7rem; }
+
+.order-detail-page__delivery__shipping-address__detail {
+  line-height: 2.1rem; }
+
+.order-detail-page__delivery__shipping-address + .order-detail-page__delivery__shipping-address {
+  margin-top: 4rem; }
+
+.order-detail-page__delivery__logistic-info {
+  padding: 1rem 0 2rem 4rem;
+  border-left: 1px solid rgba(0, 0, 0, .09); }
+  .order-detail-page__delivery__logistic-info__item-wrapper {
+    position: relative; }
+  .order-detail-page__delivery__logistic-info__bullet-connector {
+    width: .1rem;
+    height: 100%;
+    position: absolute;
+    background: #D8D8D8;
+    top: 1.1rem;
+    left: .5rem; }
+    .order-detail-page__delivery__logistic-info__bullet-connector--last {
+      height: 0; }
+  .order-detail-page__delivery__logistic-info__item {
+    line-height: 3.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .order-detail-page__delivery__logistic-info__item__bullet {
+      width: 1rem;
+      height: 1rem;
+      background: #D8D8D8;
+      margin-right: .8rem;
+      margin-top: 1.1rem;
+      border-radius: 50%;
+      z-index: 1; }
+      .order-detail-page__delivery__logistic-info__item__bullet--highlighted {
+        background: #ff5722; }
+    .order-detail-page__delivery__logistic-info__item__time {
+      width: 14rem;
+      margin-right: .2rem; }
+      .order-detail-page__delivery__logistic-info__item__time--highlighted {
+        color: rgba(0, 0, 0, .8); }
+    .order-detail-page__delivery__logistic-info__item__bullet, .order-detail-page__delivery__logistic-info__item__time {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
+  .order-detail-page__delivery__logistic-info .image-list-inline-zoom {
+    margin-left: 1.4rem; }
+    .order-detail-page__delivery__logistic-info .image-list-inline-zoom__image-wrapper {
+      width: 8rem;
+      height: 8rem; }
+
+.order-detail-page__order-content {
+  padding: 2rem 2rem 0; }
+
+.order-detail-page__order-content-wrapper {
+  background: white; }
+
+.order-detail-page__no-delivery-message {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: rgba(0, 0, 0, .8); }
+
+.order-detail-page__empty-order-wrapper {
+  width: 100%;
+  height: 70rem; }
+  
+.pshop-border-bottom-dotted-circle__container {
+  width: 100%;
+  height: 0;
+  border-bottom: 1px dotted rgba(0, 0, 0, .09);
+  position: relative; }
+
+.pshop-border-bottom-dotted-circle__circle {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  background: #f5f5f5;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 0; }
+  .pshop-border-bottom-dotted-circle__circle--left {
+    left: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  .pshop-border-bottom-dotted-circle__circle--right {
+    right: 0;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%); }
+
+.pshop-border-delivery {
+  height: .3rem;
+  width: 100%;
+  width: 100%;
+  background-position-x: -3rem;
+  background-size: 11.6rem .3rem;
+  background-image: repeating-linear-gradient(45deg, #6fa6d6 0, #6fa6d6 33px, transparent 0, transparent 41px, #f18d9b 0, #f18d9b 74px, transparent 0, transparent 82px); }
+
+
+.order-detail-page__main-content-wrapper {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .05);
+  border-radius: 3px;
+  overflow: hidden;
+  overflow: visible; }
+

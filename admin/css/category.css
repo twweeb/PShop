@@ -1,0 +1,249 @@
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-weight: 600;
+}
+p.search-box {
+    float: right;
+    margin: 0;
+}
+.screen-reader-text, .screen-reader-text span, .ui-helper-hidden-accessible {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+    word-wrap: normal !important;
+}
+label {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.search-box input[name="s"], .tablenav .search-plugins input[name="s"], .tagsdiv .newtag {
+    float: left;
+    height: 28px;
+    margin: 0 4px 0 0;
+}
+.pshop-core-ui p .button {
+
+    vertical-align: baseline;
+
+}
+.pshop-core-ui .button, .pshop-core-ui .button-primary, .pshop-core-ui .button-secondary {
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.pshop-clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#col-left {
+    float: left;
+    width: 35%;
+}
+#col-right {
+    float: right;
+    width: 65%;
+}
+a, div {
+    outline: 0;
+}
+#col-left .col-wrap {
+    padding: 0 6px 0 0;
+}
+.col-wrap h2 {
+    margin: 12px 0;
+    font-size: 1.1em;
+}
+.form-wrap .form-field {
+    margin: 1em 0;
+    padding: 0;
+}
+.form-wrap label {
+    display: block;
+    padding: 2px 0;
+}
+.form-table th, .form-wrap label {
+    color: #23282d;
+    font-weight: 400;
+    text-shadow: none;
+    vertical-align: baseline;
+}
+.pshop-core-ui p .button {
+    vertical-align: baseline;
+}
+.pshop-core-ui .button-primary {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+}
+.pshop-core-ui .button, .pshop-core-ui .button-primary, .pshop-core-ui .button-secondary {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tablenav {
+
+    clear: both;
+    height: 30px;
+    margin: 6px 0 4px;
+    vertical-align: middle;
+
+}
+.tablenav .tablenav-pages {
+    float: right;
+    height: 28px;
+    margin-top: 3px;
+    cursor: default;
+    color: #555;
+}
+.tablenav .actions {
+    overflow: hidden;
+    padding: 2px 8px 0 0;
+}
+.alignleft {
+    float: left;
+}
+.tablenav .actions select {
+    float: left;
+    margin-right: 6px;
+    max-width: 200px;
+}
+select {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+}
+#doaction, #doaction2, #post-query-submit {
+    margin: 1px 8px 0 0;
+}
+.pshop-core-ui .button, .pshop-core-ui .button-secondary {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+br.clear {
+    height: 2px;
+    line-height: 2px;
+}
+.clear {
+    clear: both;
+}
+
+table.fixed {
+    table-layout: fixed;
+}
+table.widefat {
+    background: #fff;
+}
+table.widefat {
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.widefat {
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+.widefat * {
+    word-wrap: break-word;
+}
+.widefat td, .widefat th {
+    padding: 8px 10px;
+}
+.widefat thead td.check-column {
+    padding-top: 4px;
+    vertical-align: middle;
+}
+
+.widefat th.sortable, .widefat th.sorted {
+
+    padding: 0;
+
+}
+th span {
+    display: block;
+    overflow: hidden;
+    padding: 8px;
+}
+.widefat td, .widefat th {
+    color: #555;
+}
+.widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    font-size: 13px;
+    line-height: 1.5em;
+}
+.alternate, .striped > tbody > :nth-child(2n+1), ul.striped > :nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+.widefat td {
+    vertical-align: top;
+}
+.row-actions {
+    color: #ddd;
+    font-size: 13px;
+    position: relative;
+    left: -9999em;
+}
+.row-actions, .row-actions-visible {
+    padding: 2px 0 0;
+}
+.hidden,.no-js,.hide-if-no-js{
+    display: none;
+}
+.fixed .column-cb {
+    width: 5%;
+}
+.fixed .column-name {
+    width: 40%;
+}
+.fixed .column-slug {
+    width: 30%;
+}
+.fixed .column-posts {
+    width: 25%;
+}
