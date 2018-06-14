@@ -1,0 +1,20 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} pshop.mrkuma.com [OR]
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ErrorDocument 404 ./404.php
+</IfModule>
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+
+        # Removes index.php from ExpressionEngine URLs
+        RewriteCond $1 !\.(gif|jpe?g|png)$ [NC]
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>
+DirectoryIndex index.html index.htm default.htm index.php index.php3 index.phtml index.php5 index.shtml mwindex.phtml

@@ -50,13 +50,13 @@ if(isset($user) && $user->authority == "admin"){?>
 <?php
     // Show all the contents
 	global $dbh;
-    $sql = "SELECT * FROM UserInfo";
+    $sql = "SELECT * FROM userinfo";
     $sth = $dbh->prepare($sql);
     $sth->execute();
     if ($sth->rowCount() > 0)
     {
         // output data of each row
-        foreach ($dbh->query($sql) as $row)
+        foreach($sth->fetchAll() as $row)
         {
             echo '<tr>';
             $id = $row['id'];

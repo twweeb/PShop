@@ -1,6 +1,6 @@
 <?php
 $required_php_version = "7.0.0";
-$required_mysql_version = "5.7";
+$required_mysql_version = "5.6";
 function get_mysql_ver(){
 	global $dbh;
 	return $dbh->query('select version()')->fetchColumn();
