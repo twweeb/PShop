@@ -197,7 +197,7 @@ ex: /public_html/pshop
 ## 四、使用者管理
 
 ⋅進入首頁，點選右上角的〝註冊〞，資料填妥後（系統預設為一般買家），即可進行購物。
-![alt text](https://github.com/twweeb/PShop/blob/master/README/img11.png "資料庫關聯"
+![alt text](https://github.com/twweeb/PShop/blob/master/README/img11.png)
 
 ・登入後，點選右上角的〝會員資料〞，可修改個人資料。
 ![alt text](https://github.com/twweeb/PShop/blob/master/README/img12.png)
